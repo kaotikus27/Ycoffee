@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+*{
+    /* GENERAL FONT  */
+    font-family: "Mallanna", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #313131;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+ 
+    max-width: 1512px;
+    width: 80%; /* Set a fixed width for the body element */ 
+    margin: 0 auto; 
+}
